@@ -26,7 +26,6 @@ if(ride.length > 1) {
   passenger2PickupAddressLine2 = ride[1].pickupLocation.city + ", " + ride[1].pickupLocation.state + " " + ride[1].pickupLocation.zip
   passenger2DropoffAddressLine1 = ride[1].dropoffLocation.address
   passenger2DropoffAddressLine2 = ride[1].dropoffLocation.city + ", " + ride[1].dropoffLocation.state + " " + ride[1].dropoffLocation.zip
-  console.log(passenger2Name)
 }
  
 if(ride.length > 2) {
@@ -37,7 +36,6 @@ if(ride.length > 2) {
   passenger3PickupAddressLine2 = ride[2].pickupLocation.city + ", " + ride[2].pickupLocation.state + " " + ride[2].pickupLocation.zip
   passenger3DropoffAddressLine1 = ride[2].dropoffLocation.address
   passenger3DropoffAddressLine2 = ride[2].dropoffLocation.city + ", " + ride[2].dropoffLocation.state + " " + ride[2].dropoffLocation.zip
-  console.log(passenger3Name)
 }
   console.log(levelOfService)
 
