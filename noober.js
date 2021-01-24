@@ -37,8 +37,6 @@ if(ride.length > 2) {
   passenger3DropoffAddressLine1 = ride[2].dropoffLocation.address
   passenger3DropoffAddressLine2 = ride[2].dropoffLocation.city + ", " + ride[2].dropoffLocation.state + " " + ride[2].dropoffLocation.zip
 }
-  console.log(levelOfService)
-
 
   // 🔥🔥🔥 YOUR CODE GOES HERE 🔥🔥🔥
   // the 'ride' variable contains data about a random ride (i.e. when the page)
